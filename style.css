@@ -1,0 +1,67 @@
+body{
+    background-image: url(https://github.com/Behrad1714/project/blob/main/IMG_4108.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100hv;
+    margin: 0;
+}
+@media (max-width:600px){
+    body{
+        background-size: cover;
+        background-attachment: scroll;
+    }
+}
+#box1{
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    background-color:#6f4e37 ;
+    color: white;
+    font-size: 95px;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    top: 40px;
+    left: 180px;
+
+    animation: box;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes box{
+    from{margin-left: 100%;}
+}
+
+#box2{
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    background-color: rgba(112, 66, 20, 0.5);
+    margin-left: 35px;
+    margin-top: 10%;
+}
+
+
+.items{
+    display: inline-block;
+    margin: 10px;
+    width: 80px;
+    margin-right: 100px;
+}
+.items .description{
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    margin-left: 50px;
+}
+.items img{
+    width: 100%;
+    height: auto;
+    margin-left: 40px;
+}
