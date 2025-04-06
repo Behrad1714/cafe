@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://github.com/Behrad1714/project/blob/main/IMG_4108.JPG);
+    background-image: url(image/IMG_4108.JPG);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body{
     height: 400px;
     width: 400px;
     background-color: rgba(112, 66, 20, 0.5);
-    margin-left: 35px;
+    margin-left: 0px;
     margin-top: 10%;
 }
 
@@ -64,4 +64,27 @@ body{
     width: 100%;
     height: auto;
     margin-left: 40px;
+}
+
+
+.option{
+    display: inline-block;
+    margin: 10px;
+    width: 80px;
+    margin-right: 100px;
+}
+
+.option img{
+    width: 100%;
+    height: auto;
+    margin: 40px;
+}
+
+.option .Iname{
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    margin-left: 50px;
+    color: white;
+
 }
